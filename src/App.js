@@ -4,6 +4,7 @@ import User from './assets/img/user.png';
 import Email from './assets/img/email.png';
 import Whatsapp from './assets/img/whatsapp.png';
 import Send from './assets/img/send.png';
+import Telegram from './assets/img/telegram.png';
 import YouTube from './assets/img/youtube.png';
 import Instagram from './assets/img/instagram.png';
 import Facebook from './assets/img/facebook.png';
@@ -43,7 +44,7 @@ const App = () => {
                             <div className="form-row">
                                 <div className="col-12">
                                     <label htmlFor="validationName" className="col-2 text-dark text-right align-middle"><img src={User} alt="nome" /></label>
-                                    <input className="col-8 ml-2" id="validationName" name="name" type="text" placeholder="como gostaria de ser chamado" required />
+                                    <input className="col-8 ml-2" id="validationName" name="name" type="text" placeholder="digite seu nome" required />
                                     <div className="invalid-feedback mb-2 mt-0 ml-2">
                                         Esse campo precisa ser preenchido.
                                     </div>
@@ -77,11 +78,10 @@ const App = () => {
                 </div>
                 <div className="green-card mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-2 py-2">
-                        <h2 className="display-5 text-white">Venha fazer parte da minha comunidade no Telegram</h2>
-                    </div>
-                    <div className="list shadow-sm mx-auto">
-                        <a href="https://t.me/dramelissaduarte">Como viver melhor sem ESTRESSE</a>
-                        <p>Lá você terá acesso a conteúdos exclusivos.</p>
+                        <h2 className="display-5 text-white mb-5">Venha fazer parte da minha comunidade no Telegram</h2>
+                        <div className="w-100 text-center my-5"><img width="100px" src={Telegram} alt="Telegram" /></div>
+                        <a className="mb-5 text-white" href="https://t.me/dramelissaduarte">Como viver melhor sem ESTRESSE</a>
+                        <p className="text-white mt-5">Lá você terá acesso a conteúdos exclusivos.</p>
                     </div>
                 </div>
             </div>
