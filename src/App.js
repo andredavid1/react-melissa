@@ -77,16 +77,11 @@ const App = () => {
                 </div>
                 <div className="green-card mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-2 py-2">
-                        <h2 className="display-5 text-white">Sobre o que falaremos:</h2>
+                        <h2 className="display-5 text-white">Venha fazer parte da minha comunidade no Telegram</h2>
                     </div>
                     <div className="list shadow-sm mx-auto">
-                        <ul className="pt-5 list-unstyled">
-                            <li className="text-white mb-3">11/07/2020 Tema 1</li>
-                            <li className="text-white mb-3">18/07/2020 Tema 2</li>
-                            <li className="text-white mb-3">25/07/2020 Tema 3</li>
-                            <li className="text-white mb-3">01/08/2020 Tema 4</li>
-                            <li className="text-white mb-3">08/08/2020 Tema 5</li>
-                        </ul>
+                        <a href="https://t.me/dramelissaduarte">Como viver melhor sem ESTRESSE</a>
+                        <p>Lá você terá acesso a conteúdos exclusivos.</p>
                     </div>
                 </div>
             </div>
